@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1731876602, guid: c85c2ccae722b9c47a9d8b482f13135f, type: 3}
+  m_Name: TexImportSetting
+  m_EditorClassIdentifier: 
+  textureType:
+    doOverride: 0
+    value: 0
+  textureShape:
+    doOverride: 0
+    value: 0
+  sRGBTexture:
+    doOverride: 0
+    value: 0
+  alphaSource:
+    doOverride: 0
+    value: 0
+  alphaIsTransparency:
+    doOverride: 0
+    value: 0
+  readWriteEnabled:
+    doOverride: 1
+    value: 1
+  streamingMipmaps:
+    doOverride: 0
+    value: 0
+  generateMipMaps:
+    doOverride: 0
+    value: 0
+  borderMipMap:
+    doOverride: 0
+    value: 0
+  mipMapFiltering:
+    doOverride: 0
+    value: 0
+  mipMapsPreserveCoverage:
+    doOverride: 0
+    value: 0
+  fadeoutMipMaps:
+    doOverride: 0
+    value: 0
+  fadeRangeMin:
+    doOverride: 0
+    value: 0
+  fadeRangeMax:
+    doOverride: 0
+    value: 0
+  wrapMode:
+    doOverride: 0
+    value: 0
+  wrapModeU:
+    doOverride: 0
+    value: 0
+  wrapModeV:
+    doOverride: 0
+    value: 0
+  wrapModeW:
+    doOverride: 0
+    value: 0
+  filterMode:
+    doOverride: 0
+    value: 0
+  anisoLevel:
+    doOverride: 0
+    value: 0
