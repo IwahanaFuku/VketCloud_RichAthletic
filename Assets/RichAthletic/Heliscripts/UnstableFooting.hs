@@ -33,6 +33,7 @@ component UnstableFooting
     // 初期化時にステートをstableに戻して、位置も初期状態に戻す。
     public void InitializeFooting()
     {
+        m_isOnFooting = false;
         m_state = "stable";
         m_item.CallComponentMethod("ItemMove", "ResetToStartPosition", "");
     }

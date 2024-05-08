@@ -11,11 +11,19 @@ component HalfwayPointManager
         m_rotate = warpPointItem.GetWorldRotate().y;
 	}
 
-     //中間ポイントにワープする
+    //中間ポイントにワープする
 	public void WarpHalfwayPoint()
 	{
         Player player = hsPlayerGet();
 		player.SetPos(m_warpPoint);
         player.SetRotate(m_rotate);
+
+        OnHalfwayPointWarp();
 	}
+
+    //中間ポイントにワープするした時に呼ぶメソッド
+    void OnHalfwayPointWarp()
+    {
+        hsItemGet("UnstableFooting").CallComponentMethod("UnstableFooting", "InitializeFooting", "");
+    }
 }
