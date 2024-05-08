@@ -24,10 +24,8 @@ component UnstableFooting
         InitializeFooting();
     }
 
-    void StartUnstableFooting(string param)
+    void StartUnstableFooting()
     {
-        list<string> paramList = param.Split(",");
-
         m_isOnFooting = true;
         m_onFootingTime = hsSystemGetTime();
     }
@@ -36,7 +34,7 @@ component UnstableFooting
     public void InitializeFooting()
     {
         m_state = "stable";
-        m_item.CallComponentMethod("ItemMove", "ResetToStartPosition", "param");
+        m_item.CallComponentMethod("ItemMove", "ResetToStartPosition", "");
     }
     
     public void Update()

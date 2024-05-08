@@ -35,12 +35,12 @@ PrefabInstance:
     - target: {fileID: 3885124228053252805, guid: 36b5b2bcea8418040b0f1526a4b1697e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.7580004
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3885124228053252805, guid: 36b5b2bcea8418040b0f1526a4b1697e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.04
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3885124228053252805, guid: 36b5b2bcea8418040b0f1526a4b1697e,
         type: 3}
@@ -90,27 +90,27 @@ PrefabInstance:
     - target: {fileID: 3965424763388087193, guid: 36b5b2bcea8418040b0f1526a4b1697e,
         type: 3}
       propertyPath: _object.pos.Array.data[0]
-      value: 8.78
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3965424763388087193, guid: 36b5b2bcea8418040b0f1526a4b1697e,
         type: 3}
       propertyPath: _object.pos.Array.data[1]
-      value: 15.45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3965424763388087193, guid: 36b5b2bcea8418040b0f1526a4b1697e,
         type: 3}
       propertyPath: _object.pos.Array.data[2]
-      value: 17.06
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3965424763388087193, guid: 36b5b2bcea8418040b0f1526a4b1697e,
         type: 3}
       propertyPath: _object.scale.Array.data[0]
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 3965424763388087193, guid: 36b5b2bcea8418040b0f1526a4b1697e,
         type: 3}
       propertyPath: _object.scale.Array.data[1]
-      value: 4.5
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3965424763388087193, guid: 36b5b2bcea8418040b0f1526a4b1697e,
         type: 3}
