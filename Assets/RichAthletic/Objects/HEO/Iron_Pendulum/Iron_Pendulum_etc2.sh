@@ -1,8 +1,8 @@
 #!/bin/sh
 mkdir -p tex_etc/ 
 rm -f tex_etc/*.pvr
-PVRTexToolCLI -i "tex_sample/000_Metal.png" -o tex_etc/000.pvr -m 16 -f ETC2_RGBA,UBN,sRGB
-PVRTexToolCLI -i "tex_sample/001_Metal_Normal.png" -o tex_etc/001.pvr -m 16 -f ETC2_RGBA,UBN,sRGB
+PVRTexToolCLI -i "tex_sample/000_Metal_comp.png" -o tex_etc/000.pvr -m 16 -f ETC2_RGBA,UBN,sRGB
+PVRTexToolCLI -i "tex_sample/001_Metal_Normal_comp.png" -o tex_etc/001.pvr -m 16 -f ETC2_RGBA,UBN,sRGB
 #!/bin/sh
 mkdir -p tex_reflection_cube_etc/0/ 
 rm -f tex_reflection_cube_etc/0/*.pvr
