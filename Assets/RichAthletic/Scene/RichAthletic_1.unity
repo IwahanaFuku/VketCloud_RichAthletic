@@ -4054,8 +4054,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629286426}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.281, y: 31.927, z: 1.418}
-  m_LocalScale: {x: 9.915944, y: 31.214422, z: 19.223022}
+  m_LocalPosition: {x: -1.281, y: 32.912, z: 1.418}
+  m_LocalScale: {x: 9.915944, y: 29.243902, z: 19.223022}
   m_Children: []
   m_Father: {fileID: 1495535755}
   m_RootOrder: 14
@@ -5798,8 +5798,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901190164}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.97, y: 4.5, z: -4.8099995}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 9.97, y: 4.62, z: -4.8099995}
+  m_LocalScale: {x: 1, y: 1.0764, z: 1}
   m_Children:
   - {fileID: 255410519}
   - {fileID: 358925843}
@@ -8520,7 +8520,7 @@ MonoBehaviour:
     _maxDistance: 10
   _worldName: Bvfa4hYD
   _spatiumCode: default
-  _debugMode: 1
+  _debugMode: 0
   _useAvatarClick: 1
   _VRMDrop: 0
   _occlusionCulling: 0
